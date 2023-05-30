@@ -11,7 +11,9 @@ function ResultPopUp({ result, setIsPopupOpen, setAlc, setMl }) {
   return (
     <div className="alcalculator result">
       <img className="logo" src={Logo} alt="logo" />
-      <h1 className="heading">Резултат: {result} единици.</h1>
+      <h1 className="heading">
+        Резултат: {parseFloat(result.toFixed(3))} единици.
+      </h1>
       <button className="button" onClick={handleBackBtn} type="button">
         Back
       </button>
