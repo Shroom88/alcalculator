@@ -14,14 +14,15 @@
   @media (max-width: 767px) {
     position: relative;
     display: block;
-    top: 10px;
+    top: 100px;
     left: 50%;
     transform: translate(-50%, 0);
-    width: 50px;
+    width: 30px;
   }
 }
 
 .heading {
+  padding-top: 60px;
   font-size: 3.5rem;
   text-align: center;
   color: #5626c4;
