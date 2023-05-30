@@ -14,7 +14,8 @@
   @media (max-width: 767px) {
     position: relative;
     display: block;
-    top: 100px;
+    top: 295px;
+    padding: 5px;
     left: 50%;
     transform: translate(-50%, 0);
     width: 30px;
@@ -22,7 +23,7 @@
 }
 
 .heading {
-  padding-top: 60px;
+  padding-top: 240px;
   font-size: 3.5rem;
   text-align: center;
   color: #5626c4;
