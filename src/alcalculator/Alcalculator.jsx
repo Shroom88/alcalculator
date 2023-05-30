@@ -27,7 +27,7 @@ function Alcalculator() {
   };
 
   const handleCalculate = () => {
-    const result = ((alc / 100) * ml) / 1000;
+    const result = (alc * ml) / 1000;
     setResult(result);
     setIsPopupOpen(true);
   };

@@ -12,11 +12,11 @@
   display: none;
 
   @media (max-width: 767px) {
-    position: absolute;
+    position: relative;
     display: block;
+    top: 10px;
     left: 50%;
     transform: translate(-50%, 0);
-    top: -145px;
     width: 50px;
   }
 }
