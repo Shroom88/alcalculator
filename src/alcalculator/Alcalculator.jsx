@@ -49,7 +49,7 @@ function Alcalculator() {
         Попълни празните полета и разбери колко единици алкохол има във всяка
         напитка
       </p>
-      <div className="calculate">
+      <form className="calculate" onSubmit={handleCalculate}>
         <label className="label" htmlFor="alc">
           % alc.:
           <input
@@ -58,6 +58,7 @@ function Alcalculator() {
             type="text"
             name="alc"
             value={alc}
+            required
           />
         </label>
         <label className="label" htmlFor="ml">
@@ -68,12 +69,13 @@ function Alcalculator() {
             type="text"
             name="ml"
             value={ml}
+            required
           />
         </label>
-        <button onClick={handleCalculate} className="button" type="button">
+        <button className="button" type="submit">
           резултат
         </button>
-      </div>
+      </form>
       <p className="description-2">
         Една единица алкохол се разгражда от тялото за около един час. Използвай
         този калкулатор, за да следиш лесно консумацията си по всяко време.
