@@ -11,6 +11,7 @@
 .logo {
   display: none;
   position: relative;
+  top: 30px;
 
   @media (max-width: 767px) {
     display: block;
