@@ -23,10 +23,10 @@
 }
 
 .logo--result {
+  display: none;
   top: 0;
 
   @media (max-width: 767px) {
-    display: none;
     position: relative;
     display: block;
     padding: 5px;
