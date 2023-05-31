@@ -12,8 +12,6 @@
   display: none;
   position: relative;
 
-  top: 295px;
-
   @media (max-width: 767px) {
     display: block;
     padding: 5px;
