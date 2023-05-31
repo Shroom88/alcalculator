@@ -10,11 +10,12 @@
 
 .logo {
   display: none;
+  position: relative;
+
+  top: 295px;
 
   @media (max-width: 767px) {
-    position: relative;
     display: block;
-    top: 295px;
     padding: 5px;
     left: 50%;
     transform: translate(-50%, 0);
@@ -24,11 +25,11 @@
 
 .logo--result {
   display: none;
+  position: relative;
+  top: 0;
 
   @media (max-width: 767px) {
-    position: relative;
     display: block;
-    top: 0;
     padding: 5px;
     left: 50%;
     transform: translate(-50%, 0);
