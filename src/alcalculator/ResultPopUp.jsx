@@ -1,5 +1,5 @@
 import React from "react";
-import "./alcalculator.css";
+import "./Alcalculator.css";
 import Logo from "../assets/aclalculator-logo.png";
 
 function ResultPopUp({ result, setIsPopupOpen, setAlc, setMl }) {

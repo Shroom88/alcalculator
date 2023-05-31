@@ -1,5 +1,5 @@
 import React from "react";
-import "./alcalculator.css";
+import "./Alcalculator.css";
 import { useState } from "react";
 import ResultPopUp from "./ResultPopUp";
 import Logo from "../assets/aclalculator-logo.png";
