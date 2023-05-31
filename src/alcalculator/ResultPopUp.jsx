@@ -10,12 +10,12 @@ function ResultPopUp({ result, setIsPopupOpen, setAlc, setMl }) {
   };
   return (
     <div className="alcalculator result">
-      <img className="logo" src={Logo} alt="logo" />
-      <h1 className="heading">
+      <img className="logo--result" src={Logo} alt="logo" />
+      <h1 className="heading--result">
         Резултат: {parseFloat(result.toFixed(3))} единици.
       </h1>
       <button className="button" onClick={handleBackBtn} type="button">
-        Back
+        Обратно към калкулатора
       </button>
       <p className="description-2">
         Една единица алкохол се разгражда от тялото за около един час. Използвай
