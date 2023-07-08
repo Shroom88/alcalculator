@@ -1,6 +1,7 @@
 import React from "react";
 import "./alcalculator.css";
 import Logo from "../assets/aclalculator-logo.png";
+import Spirits from "../assets/spirits-logo.png";
 
 function ResultPopUp({ result, setIsPopupOpen, setAlc, setMl }) {
   const handleBackBtn = () => {
@@ -21,6 +22,7 @@ function ResultPopUp({ result, setIsPopupOpen, setAlc, setMl }) {
         Една единица алкохол се разгражда от тялото за около един час. Използвай
         този калкулатор, за да следиш лесно консумацията си по всяко време.
       </p>
+      <img className="logo logo--spirits" src={Spirits} alt="logo" />
     </div>
   );
 }

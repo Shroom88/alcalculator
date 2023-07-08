@@ -1,40 +1,36 @@
 .alcalculator {
   position: relative;
   width: 640px;
+  padding-bottom: 30px;
+}
 
-  @media (max-width: 767px) {
-    width: 100%;
-    max-width: 805px;
-  }
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 50%;
+  transform: translate(50%, 0);
+  width: 100px;
+  height: 100px;
+  background-image: url("../assets/spirits-logo.png");
+  background-size: 132px;
 }
 
 .logo {
   display: none;
   position: relative;
   top: 30px;
-
-  @media (max-width: 767px) {
-    display: block;
-    padding: 5px;
-    left: 50%;
-    transform: translate(-50%, 0);
-    width: 30px;
-  }
 }
 
 .logo--result {
   display: none;
   top: 0;
-
-  @media (max-width: 767px) {
-    position: relative;
-    display: block;
-    padding: 5px;
-    left: 50%;
-    transform: translate(-50%, 0);
-    width: 30px;
-  }
 }
+/* 
+.logo--spirits {
+  width: 75px;
+  margin-top: -35px;
+  transform: translate(-35%, 0);
+} */
 
 .heading {
   padding-top: 15px;
@@ -115,4 +111,45 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .alcalculator {
+    width: 100%;
+    max-width: 805px;
+    height: 93vh;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .logo {
+    display: block;
+    padding: 5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 30px;
+  }
+
+  .logo--spirits {
+    width: 95px;
+    margin-top: -35px;
+    transform: translate(-35%, 0);
+  }
+
+  .description-2 {
+    background-color: #facd3d;
+    border-radius: 30px;
+    padding: 20px 0;
+  }
+
+  .logo--result {
+    position: relative;
+    display: block;
+    padding: 5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 30px;
+  }
 }
