@@ -3,6 +3,7 @@ import "./alcalculator.css";
 import { useState } from "react";
 import ResultPopUp from "./ResultPopUp";
 import Logo from "../assets/aclalculator-logo.png";
+import Spirits from "../assets/spirits-logo.png";
 
 function Alcalculator() {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -42,9 +43,11 @@ function Alcalculator() {
   ) : (
     <div className="alcalculator">
       <img className="logo" src={Logo} alt="logo" />
+
       <h1 className="heading">
         Добре дошъл в твоя онлайн алкохолен калкулатор
       </h1>
+
       <p className="description">
         Попълни празните полета и разбери колко единици алкохол има във всяка
         напитка
@@ -76,10 +79,14 @@ function Alcalculator() {
           резултат
         </button>
       </form>
+
       <p className="description-2">
         Една единица алкохол се разгражда от тялото за около един час. Използвай
         този калкулатор, за да следиш лесно консумацията си по всяко време.
       </p>
+      <img className="logo logo--spirits" src={Spirits} alt="logo" />
+
+      <footer></footer>
     </div>
   );
 }
