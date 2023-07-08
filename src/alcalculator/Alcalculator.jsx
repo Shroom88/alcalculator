@@ -42,11 +42,10 @@ function Alcalculator() {
     />
   ) : (
     <div className="alcalculator">
-      <img className="logo" src={Logo} alt="logo" />
-
       <h1 className="heading">
         Добре дошъл в твоя онлайн алкохолен калкулатор
       </h1>
+      <img className="logo" src={Logo} alt="logo" />
 
       <p className="description">
         Попълни празните полета и разбери колко единици алкохол има във всяка
